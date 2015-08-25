@@ -1,0 +1,16 @@
+{
+  "name": "bedtest",
+  "main": "index.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/FranklinSilva/bedtest",
+  "authors": [
+    "FranklinSilva <franklinsilva@outlook.com>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "docs": "git@github.com:bed-rock/docs.git#develop"
+  }
+}
