@@ -2,22 +2,11 @@
 <html>
 <head>
   <% include ../partials/header.ejs %>
-  <script>
-    $('a[href^="#"]').on('click', function(event) {
-      var target = $(this.href);
-      if( target.length ) {
-        event.preventDefault();
-        $('html, body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-      }
-    });
-  </script>
 </head>
 
 <body>
   <header>
-    <img class="logo" src="/stylesheets/LogoBedrockBlue.jpg">
+    <img class="logo" src="/bower_components/docs/logo/LogoBedrockBlue.jpg">
     <nav>
       <ul class="menu-docs">
         <li><a href="#">Demo</a></li>
@@ -513,7 +502,7 @@
 <div id="d-br-form">
   <h2>br-form</h2>
   <p>A wrap for br-input, br-checkable and br-button, making viable build entire forms with our custom elements.</p>
-  <p>External File needed:</p>
+   <p>External File needed:</p>
   <div class="language">
     <code>
       <<span class="tag-red">link</span> <span class="atribute-yellow">rel=</span>"import" <span class="atribute-yellow">href=</span>"/src/br-form/src/br-form.html">
@@ -533,7 +522,7 @@
   </ul>
   <div class="demo">
     <br-form action="" autocomplete="on" method="POST">
-    <br-input
+<br-input
     name="teste"
     id="test1"
     label="Input with icon"
@@ -548,9 +537,9 @@
     required
     id="br-teste"
     icon="br-icons:search"
-    ></br-input>
+  ></br-input>
 
-    <br-input
+  <br-input
     name="sese"
     id="test2"
     label="Input without icon"
@@ -567,13 +556,13 @@
 
     <br-button class="accent" label="Botão normal" ></br-button>
   </br-form>
-</div>
+  </div>
 </div>
 <hr/>
 <div id="d-br-nav">
-  <h2>br-nav</h2>
-  <p>A mobile-friendly on click side menu with "sandwich" icon</p>
-  <p>External File needed:</p>
+<h2>br-nav</h2>
+<p>A mobile-friendly on click side menu with "sandwich" icon</p>
+ <p>External File needed:</p>
   <div class="language">
     <code>
       <<span class="tag-red">link</span> <span class="atribute-yellow">rel=</span>"import" <span class="atribute-yellow">href=</span>"/src/br-nav/src/br-nav.html">
@@ -592,9 +581,9 @@
 </div>
 <hr/>
 <div id="d-br-header">
-  <h2>br-header</h2>
-  <p>A header wrap divided by content position</p>
-  <p>External File needed:</p>
+<h2>br-header</h2>
+<p>A header wrap divided by content position</p>
+ <p>External File needed:</p>
   <div class="language">
     <code>
       <<span class="tag-red">link</span> <span class="atribute-yellow">rel=</span>"import" <span class="atribute-yellow">href=</span>"/src/br-header/src/br-header.html">
@@ -607,52 +596,52 @@
     </code>
   </div>
   <hr/>
-  <div id="d-br-search">
-    <h2>br-search</h2>
-    <p>Search input field</p>
-    <p>External File needed:</p>
-    <div class="language">
-      <code>
-        <<span class="tag-red">link</span> <span class="atribute-yellow">rel=</span>"import" <span class="atribute-yellow">href=</span>"/src/br-search/src/br-search.html">
-      </code>
-    </div>
-    <h3>Tag Usage:</h3>
-    <div class="language">
-      <code>
-        <<span class="tag-red">br-search</span>>< /<span class="tag-red">br-search</span>>
-      </code>
-    </div>
+<div id="d-br-search">
+<h2>br-search</h2>
+<p>Search input field</p>
+ <p>External File needed:</p>
+  <div class="language">
+    <code>
+      <<span class="tag-red">link</span> <span class="atribute-yellow">rel=</span>"import" <span class="atribute-yellow">href=</span>"/src/br-search/src/br-search.html">
+    </code>
   </div>
-  <hr/>
-  <div id="d-br-page">
-    <h2>br-page</h2>
-    <p>framework´s Page model with navbar, apps navigation, input search and body It has dependency on br-nav, br-apps-navigation, br-search, br-icons, br-dropdown-list, br-button, br-page-header, br-header, br-input</p>
-    <p>External File needed:</p>
-    <div class="language">
-      <code>
-        <<span class="tag-red">link</span> <span class="atribute-yellow">rel=</span>"import" <span class="atribute-yellow">href=</span>"/src/br-page/src/br-page.html">
-      </code>
-    </div>
-    <h3>Tag Usage:</h3>
-    <div class="language">
-      <code>
-        <<span class="tag-red">br-page</span>>< /<span class="tag-red">br-page</span>>
-      </code>
-    </div>
-    <h3>Atributes</h3>
-    <ul class="atributes">
-      <li>navOptions: Array</li>
-      <li>apps: Array</li>
-      <li>accountOptions: Array</li>
-    </ul>
-    <div class="demo">
-      <a href="/page" target="_blank">To access this demo, click here pandwa!</a>
-    </div>
+  <h3>Tag Usage:</h3>
+  <div class="language">
+    <code>
+      <<span class="tag-red">br-search</span>>< /<span class="tag-red">br-search</span>>
+    </code>
   </div>
+</div>
+<hr/>
+<div id="d-br-page">
+  <h2>br-page</h2>
+  <p>framework´s Page model with navbar, apps navigation, input search and body It has dependency on br-nav, br-apps-navigation, br-search, br-icons, br-dropdown-list, br-button, br-page-header, br-header, br-input</p>
+   <p>External File needed:</p>
+  <div class="language">
+    <code>
+      <<span class="tag-red">link</span> <span class="atribute-yellow">rel=</span>"import" <span class="atribute-yellow">href=</span>"/src/br-page/src/br-page.html">
+    </code>
+  </div>
+  <h3>Tag Usage:</h3>
+  <div class="language">
+    <code>
+      <<span class="tag-red">br-page</span>>< /<span class="tag-red">br-page</span>>
+    </code>
+  </div>
+  <h3>Atributes</h3>
+  <ul class="atributes">
+    <li>navOptions: Array</li>
+    <li>apps: Array</li>
+    <li>accountOptions: Array</li>
+  </ul>
+  <div class="demo">
+    <a href="/page" target="_blank">To access this demo, click here pandwa!</a>
+  </div>
+</div>
 </section>
 <footer class="get-it">
-  <h2>And this is all folks!</h2>
-  <h3>Visit our <a href="https://github.com/bed-rock">github</a> page and download the Bedrock project</h3>
+<h2>And this is all folks!</h2>
+<h3>Visit our <a href="https://github.com/bed-rock">github</a> page and download the Bedrock project</h3>
 </footer>
 
 </body>
