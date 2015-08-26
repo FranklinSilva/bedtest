@@ -48,7 +48,7 @@ ul.menu-docs{
   margin: 0;
 }
 
-.intro p, div[id*="d-br-"] p, ul{
+.intro p, div[id*="d-br-"] p, div[id*="d-br-"] ul{
   text-align: justify;
   font-size: 1.2rem;
   font-weight: 300;
@@ -77,6 +77,7 @@ h2, h3, h4{
   padding: 2rem;
   color: #bbffbb;
 }
+
 
 .tag-red{
   color: #e74c3c;
